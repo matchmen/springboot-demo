@@ -19,6 +19,6 @@ public class TestController {
     @GetMapping("info")
     public String info() {
 
-        return "docker service:" + port;
+        return "docker service test:" + port;
     }
 }
